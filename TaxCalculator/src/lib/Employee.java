@@ -27,6 +27,7 @@ public class Employee {
 	}
 
 	private Gender gender;
+	
 	private int monthlySalary;
 	private int otherMonthlyIncome;
 	private int annualDeductible;
