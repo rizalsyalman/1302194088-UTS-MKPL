@@ -16,7 +16,12 @@ public class Employee {
 	private boolean isForeigner;
 	private boolean gender; //true = Laki-laki, false = Perempuan
 
-	
+	public enum Gender {
+		Laki_Laki,
+		Perempuan,
+	}
+
+	private Gender gender;
 	public Employee(String employeeId, String firstName, String lastName, String idNumber, String address, int yearJoined, int monthJoined, int dayJoined, boolean isForeigner, boolean gender) {
 		this.employeeId = employeeId;
 		this.firstName = firstName;
